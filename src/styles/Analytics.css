@@ -1,0 +1,70 @@
+.analytics-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  height: auto;
+  width: 1000px;
+  font-family: "Open Sans";
+  background-color: white;
+  border-radius: 8px;
+}
+
+.analytics-column {
+  background-color: #f9fcff;
+  font-family: "Open Sans";
+  width: 550px;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.analytics-ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.analytics-li {
+  padding: 8px 0;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #000000;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analytics-li::before {
+  content: "•";
+  color: #90c4cc;
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+.task-label {
+  color: #000000;
+  margin-right: auto;
+  width: 200px;
+}
+
+#second {
+  margin-left: 30px;
+}
+
+.task-count {
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: large;
+  font-family: "Open Sans";
+}
+
+li:hover {
+  background-color: #eef5ff;
+  border-radius: 4px;
+}
+
+.analytics-header {
+  font-family: "Open Sans";
+  font-size: 25px;
+  margin-top: 40px;
+}

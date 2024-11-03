@@ -1,0 +1,83 @@
+.settings-form {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: Hug (493.39px) px;
+  height: Hug (484.92px) px;
+  top: 105px;
+  left: 268px;
+  gap: 44px;
+  opacity: 0px;
+}
+
+.settings-header {
+  font-family: "Open Sans";
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.settings-form-group {
+  margin-bottom: 20px;
+  position: relative;
+  font-family: Open Sans;
+  width: 250px;
+}
+
+.settings-input-with-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.settings-input-with-icon input {
+  flex: 1;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+}
+
+.settings-input-icon1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.settings-input-icon2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 220px;
+}
+
+.settings-input-icon1:first-of-type {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.settings-input-icon1:last-of-type {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+button.update-button {
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 55.13px;
+}
+
+button.update-button:hover {
+  background-color: #056e7e;
+}
